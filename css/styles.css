@@ -1,0 +1,36 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+ul li{
+    list-style-type: none;
+    border: 1px solid blue;
+    background-color: rgba(47, 47, 237, 0.698);
+    padding: 10px 20px;
+    height: auto;
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1 100%;
+    gap: 10px;
+    padding: 40px;
+    flex-wrap: wrap;
+    
+}
+.container{
+    background-color: yellowgreen;
+    border-bottom: green;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
